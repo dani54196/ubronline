@@ -6,10 +6,9 @@ export default function Footer() {
       <div className="inner">
         <h2 className="major">Contacto</h2>
         <p>
-          Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
-          Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
-          egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in
-          tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
+        descripcion descripcion descripcion descripcion descripcion
+        descripcion descripcion descripcion descripcion descripcion
+
         </p>
 
         <form method="post" action="/#">
