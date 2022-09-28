@@ -27,17 +27,17 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-127268ccdeb378ce1964.js"
+    "url": "webpack-runtime-2ca552c4910e7ccaeece.js"
   },
   {
     "url": "framework-5651cc7c6f7c057b0886.js"
   },
   {
-    "url": "app-35572f30145856093ac1.js"
+    "url": "app-bc4d9422087cb0b74dfe.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "30d13c8947a21d5f612ed2b7bb5116cd"
+    "revision": "28d60c70a8a90345f20a1526c7476215"
   },
   {
     "url": "manifest.webmanifest",
@@ -151,7 +151,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`https://ubronline.com/app-35572f30145856093ac1.js`))) {
+  if (!resources || !(await caches.match(`https://ubronline.com/app-bc4d9422087cb0b74dfe.js`))) {
     return await fetch(event.request)
   }
 
