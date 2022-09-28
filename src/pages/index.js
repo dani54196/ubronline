@@ -10,13 +10,15 @@ import pic5 from '../assets/images/pic05.jpg';
 import pic6 from '../assets/images/pic06.jpg';
 import pic7 from '../assets/images/pic07.jpg';
 
+import logo from '../assets/img/website-icon.png';
+
 import config from '../../config';
 const IndexPage = () => (
   <Layout>
     <section id="banner">
       <div className="inner">
         <div className="logo">
-          <span className="icon fa-diamond"></span>
+          <img src={logo} width="250"/>
         </div>
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
