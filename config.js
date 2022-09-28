@@ -7,7 +7,7 @@ module.exports = {
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/https://www.ubronline.com/`, // This path is subpath of your hosting https://domain/portfolio
+  pathPrefix: `/https://ubronline.com/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Anubhav Srivastava',
   subHeading: 'Full time Web Developer. Part time Open source contributor  ',
   // social
