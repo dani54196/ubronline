@@ -11,6 +11,7 @@ import pic6 from '../assets/images/pic06.jpg';
 import pic7 from '../assets/images/pic07.jpg';
 
 import logo from '../assets/img/website-icon.png';
+import banner from "../assets/images/banner.jpg"
 
 import config from '../../config';
 const IndexPage = () => (
@@ -89,6 +90,12 @@ const IndexPage = () => (
         </div>
       </section>
 
+
+    <section>
+      <img src={banner} width="100%"/>
+    </section>
+
+
       <section id="four" className="wrapper alt style1">
         <div className="inner">
           <h2 className="major">Vitae phasellus</h2>
@@ -162,6 +169,7 @@ const IndexPage = () => (
         </div>
       </section>
     </section>
+    
   </Layout>
 );
 
