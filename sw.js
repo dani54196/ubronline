@@ -27,21 +27,21 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-542465838183ab535405.js"
+    "url": "webpack-runtime-8a57744ab010d9c3e114.js"
   },
   {
     "url": "framework-5651cc7c6f7c057b0886.js"
   },
   {
-    "url": "app-3787938cb13ee0b4c07b.js"
+    "url": "app-9dcc0faeeb37651165db.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "5d150d1b879f8353c5fc534e7f72c0df"
+    "revision": "a1ae077e0f81d2d901572b09adb8887e"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "7b94e7115a2adbc7f4a2ac74de8724c0"
+    "revision": "f59836399ded710f5a7675f3fbfe7e12"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -146,12 +146,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^https://www.ubronline.com`), ``)
+  pathname = pathname.replace(new RegExp(`^https://ubronline.com`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`https://www.ubronline.com/app-3787938cb13ee0b4c07b.js`))) {
+  if (!resources || !(await caches.match(`https://ubronline.com/app-9dcc0faeeb37651165db.js`))) {
     return await fetch(event.request)
   }
 
@@ -164,7 +164,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `https://www.ubronline.com/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `https://ubronline.com/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
