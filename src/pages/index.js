@@ -70,9 +70,9 @@ const IndexPage = () => (
               </a>
               <h3 className="major">PROTEGER E INDENTIFICAR A TU CASCOTA</h3>
               <p>descripcion descripcion descripcion descripcion descripcion</p>
-              <a href="/#" className="special">
+              {/* <a href="/#" className="special">
                 Learn more
-              </a>
+              </a> */}
             </article>
             <article>
               <a href="/#" className="image">
@@ -82,9 +82,9 @@ const IndexPage = () => (
                 PARTICIPE EN CONCURSOS - CURSOS - CEMINARIOS Internacionales
               </h3>
               <p>descripcion descripcion descripcion descripcion descripcion</p>
-              <a href="/#" className="special">
+              {/* <a href="/#" className="special">
                 Learn more
-              </a>
+              </a> */}
             </article>
             <article>
               <a href="/#" className="image">
@@ -94,9 +94,9 @@ const IndexPage = () => (
                 HOMOLOGUE NUENSTRO REGISTRO A UN NIVEL MUNDIAL
               </h3>
               <p>descripcion descripcion descripcion descripcion descripcion</p>
-              <a href="/#" className="special">
+              {/* <a href="/#" className="special">
                 Learn more
-              </a>
+              </a> */}
             </article>
             <article>
               <a href="/#" className="image">
@@ -104,15 +104,15 @@ const IndexPage = () => (
               </a>
               <h3 className="major">REGISTROS PARA ROTAS LAS RAZA</h3>
               <p>descripcion descripcion descripcion descripcion descripcion</p>
-              <a href="/#" className="special">
+              {/* <a href="/#" className="special">
                 Learn more
-              </a>
+              </a> */}
             </article>
           </section>
           <ul className="actions">
             <li>
               <a href="/#" className="button">
-                Browse All
+                Saber Mas
               </a>
             </li>
           </ul>
