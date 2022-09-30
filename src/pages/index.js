@@ -11,7 +11,7 @@ import pic6 from '../assets/images/banner3.jpg';
 import pic7 from '../assets/images/banner3.jpg';
 
 import logo from '../assets/img/website-icon.png';
-import banner from '../assets/images/banner2.jpg';
+import bannerIndex from '../assets/images/bannerIndex.jpeg';
 import wp from '../assets/images/boton-whatsapp.png';
 
 import config from '../../config';
@@ -53,8 +53,9 @@ const IndexPage = () => (
       </section>
 
       <section>
-        <img src={banner} width="100%" />
+        <img src={bannerIndex} width="100%" />
       </section>
+
       <section id="four" className="wrapper alt style1">
         <div className="inner">
           <h2 className="major"> Nuestros beneficios son todos premium :</h2>
