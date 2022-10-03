@@ -9,6 +9,7 @@ import pic4 from '../assets/images/banner3.jpg';
 import pic5 from '../assets/images/banner3.jpg';
 import pic6 from '../assets/images/banner3.jpg';
 import pic7 from '../assets/images/banner3.jpg';
+import premios from "../assets/images/premios.jpeg"
 
 import logo from '../assets/img/website-icon.png';
 import bannerIndex from '../assets/images/bannerIndex.jpeg';
@@ -62,11 +63,12 @@ const IndexPage = () => (
         </h3>
         <ul className="alt">
           <li>PROTEGER E INDENTIFICAR A TU CASCOTA</li>
-          <li>PARTICIPE EN CONCURSOS - CURSOS - CEMINARIOS Internacionales</li>
           <li>HOMOLOGUE NUENSTRO REGISTRO A UN NIVEL MUNDIAL</li>
           <li>REGISTROS PARA ROTAS LAS RAZAS -</li>
           <li>eficacia en la entrega de tus tramites</li>
+          <li>PARTICIPE EN CONCURSOS - CURSOS - CEMINARIOS Internacionales</li>
         </ul>
+        <img src={premios} width="100%" />
       </section>
     </section>
   </Layout>
