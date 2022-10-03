@@ -56,68 +56,17 @@ const IndexPage = () => (
         <img src={bannerIndex} width="100%" />
       </section>
 
-      <section id="four" className="wrapper alt style1">
-        <div className="inner">
-          <h2 className="major"> Nuestros beneficios son todos premium :</h2>
-          <p>
-            beneficiosbeneficios beneficios beneficiosbeneficios beneficios
-            beneficiosbeneficios beneficios beneficiosbeneficios beneficios
-            beneficiosbeneficios beneficios beneficiosbeneficios beneficios
-          </p>
-          <section className="features">
-            <article>
-              <a href="/#" className="image">
-                <img src={pic4} alt="" />
-              </a>
-              <h3 className="major">PROTEGER E INDENTIFICAR A TU CASCOTA</h3>
-              <p>descripcion descripcion descripcion descripcion descripcion</p>
-              {/* <a href="/#" className="special">
-                Learn more
-              </a> */}
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic5} alt="" />
-              </a>
-              <h3 className="major">
-                PARTICIPE EN CONCURSOS - CURSOS - CEMINARIOS Internacionales
-              </h3>
-              <p>descripcion descripcion descripcion descripcion descripcion</p>
-              {/* <a href="/#" className="special">
-                Learn more
-              </a> */}
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic6} alt="" />
-              </a>
-              <h3 className="major">
-                HOMOLOGUE NUENSTRO REGISTRO A UN NIVEL MUNDIAL
-              </h3>
-              <p>descripcion descripcion descripcion descripcion descripcion</p>
-              {/* <a href="/#" className="special">
-                Learn more
-              </a> */}
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic7} alt="" />
-              </a>
-              <h3 className="major">REGISTROS PARA ROTAS LAS RAZA</h3>
-              <p>descripcion descripcion descripcion descripcion descripcion</p>
-              {/* <a href="/#" className="special">
-                Learn more
-              </a> */}
-            </article>
-          </section>
-          <ul className="actions">
-            <li>
-              <a href="/#" className="button">
-                Saber Mas
-              </a>
-            </li>
-          </ul>
-        </div>
+      <section className="beneficios">
+        <h3 className="major">
+          avalar, guardar y proteger el historial genético de tu mascota
+        </h3>
+        <ul className="alt">
+          <li>PROTEGER E INDENTIFICAR A TU CASCOTA</li>
+          <li>PARTICIPE EN CONCURSOS - CURSOS - CEMINARIOS Internacionales</li>
+          <li>HOMOLOGUE NUENSTRO REGISTRO A UN NIVEL MUNDIAL</li>
+          <li>REGISTROS PARA ROTAS LAS RAZAS -</li>
+          <li>eficacia en la entrega de tus tramites</li>
+        </ul>
       </section>
     </section>
   </Layout>
