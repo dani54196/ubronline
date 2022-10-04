@@ -9,7 +9,7 @@ import pic4 from '../assets/images/banner3.jpg';
 import pic5 from '../assets/images/banner3.jpg';
 import pic6 from '../assets/images/banner3.jpg';
 import pic7 from '../assets/images/banner3.jpg';
-import premios from "../assets/images/premios.jpeg"
+import premios from '../assets/images/premios.jpeg';
 
 import logo from '../assets/img/website-icon.png';
 import bannerIndex from '../assets/images/bannerIndex.jpeg';
@@ -37,14 +37,16 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">QUINES SOMOS :</h2>
             <p>
-              UBRO , es una organización de talla internacional., sino también
-              por nuestros socios y colegas de nivel mundial que nos avalan.
-              Contamos con un amplio Staff de Jueces, Cinólogos y Profesores;
-              brindando siempre cursos, seminarios y reuniones dedicadas a la
-              canofilia y cinología canina a nivel mundial. UBRO CUENTA con
-              registros homologables a nivel internacional, UBRO ES EL PRIMER
-              registros en brindar Documentos virtuales y físicos para la mejor
-              comodidad y transporte a favor del usuario.!!
+              QUIENES SOMOS: UBRO, es una organización de nivel internacional,
+              compuesta por socios, colegas que nos apoyan y hacen que cada día
+              esta familia crezca. UBRO ES EL PRIMER REGISTRO DE MASCOTAS
+              ONLINE, en ofrecer trámites digitales y homologación de trámites
+              de otros registros reconocidos, con lo que, lo ubica en ser un
+              servicio de vanguardia, eficiente, seguro y confiable, que
+              certifica y da soluciones a nuestros clientes. También nuestro
+              amplio Staff de Jueces, Cinólogos, Criadores y Profesionales,
+              bridan cursos, seminarios y reuniones dedicadas a la canofilia y
+              cinología canina a nivel mundial.
             </p>
             <a href="https://api.whatsapp.com/send?phone=5492994021637&text=Hola,%20Ubro">
               <img src={wp} width="300" />
@@ -58,17 +60,41 @@ const IndexPage = () => (
       </section>
 
       <section className="beneficios">
-        <h3 className="major">
-          avalar, guardar y proteger el historial genético de tu mascota
-        </h3>
+        <h3 className="major">LOS BENEFICIOS DE REGISTRAR CON UBRO</h3>
         <ul className="alt">
-          <li>PROTEGER E INDENTIFICAR A TU CASCOTA</li>
-          <li>HOMOLOGUE NUENSTRO REGISTRO A UN NIVEL MUNDIAL</li>
-          <li>REGISTROS PARA ROTAS LAS RAZAS -</li>
-          <li>eficacia en la entrega de tus tramites</li>
-          <li>PARTICIPE EN CONCURSOS - CURSOS - CEMINARIOS Internacionales</li>
+          <li>
+            Garantiza, guarda y protege el historial genético de tu mascota.
+          </li>
+          <li>Certificación con validez internacional.</li>
+          <li>
+            Acceso a seminarios, reuniones, capacitaciones, shows, eventos, y
+            demás actividades.
+          </li>
+          <li>Derechos a participar en los campeonatos oficiales.</li>
         </ul>
         <img src={premios} width="100%" />
+      </section>
+
+      <section id="one" className="wrapper spotlight style1">
+        <div className="inner">
+          <a href="/#" className="image">
+            <img src={pic1} alt="" />
+          </a>
+          <div className="content">
+            <h2 className="major">NUESTROS SERVICIOS</h2>
+            <ul className="alt">
+              <li>Asesoramiento 100 % online. </li>
+              <li>Eficiencia en los diferentes Trámites.</li>
+              <li>Atención telefónica personal. </li>
+              <li>
+                Actualizaciones de datos, (fotografías, títulos de campeón,
+                numero de chip, perdidas, defunción, etc)
+              </li>
+              <li>Informes. </li>
+              <li>Verificación, seguimiento de trámites. </li>
+            </ul>
+          </div>
+        </div>
       </section>
     </section>
   </Layout>
