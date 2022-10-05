@@ -8,9 +8,7 @@ const IndexPage = () => (
       <header>
         <div className="inner">
           <h2 className="major">Tramites</h2>
-          <p>
-            
-          </p>
+          <p></p>
 
           <form method="post" action="/#">
             <div className="fields">

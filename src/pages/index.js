@@ -35,9 +35,9 @@ const IndexPage = () => (
             <img src={pic1} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">QUINES SOMOS :</h2>
+            <h2 className="major">QUIENES SOMOS:</h2>
             <p>
-              QUIENES SOMOS: UBRO, es una organización de nivel internacional,
+              UBRO, es una organización de nivel internacional,
               compuesta por socios, colegas que nos apoyan y hacen que cada día
               esta familia crezca. UBRO ES EL PRIMER REGISTRO DE MASCOTAS
               ONLINE, en ofrecer trámites digitales y homologación de trámites
