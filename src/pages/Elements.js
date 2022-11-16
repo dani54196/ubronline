@@ -622,7 +622,7 @@ const IndexPage = () => (
         </div>
       </div>
       {/* ------------------- */}
-			<section id="four" className="wrapper alt style1">
+      <section id="four" className="wrapper alt style1">
         <div className="inner">
           <h2 className="major"> Nuestros beneficios son todos premium :</h2>
           <p>

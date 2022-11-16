@@ -37,16 +37,16 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">QUIENES SOMOS:</h2>
             <p>
-              UBRO, es una organización de nivel internacional,
-              compuesta por socios, colegas que nos apoyan y hacen que cada día
-              esta familia crezca. UBRO ES EL PRIMER REGISTRO DE MASCOTAS
-              ONLINE, en ofrecer trámites digitales y homologación de trámites
-              de otros registros reconocidos, con lo que, lo ubica en ser un
-              servicio de vanguardia, eficiente, seguro y confiable, que
-              certifica y da soluciones a nuestros clientes. También nuestro
-              amplio Staff de Jueces, Cinólogos, Criadores y Profesionales,
-              bridan cursos, seminarios y reuniones dedicadas a la canofilia y
-              cinología canina a nivel mundial.
+              UBRO, es una organización de nivel internacional, compuesta por
+              socios, colegas que nos apoyan y hacen que cada día esta familia
+              crezca. UBRO ES EL PRIMER REGISTRO DE MASCOTAS ONLINE, en ofrecer
+              trámites digitales y homologación de trámites de otros registros
+              reconocidos, con lo que, lo ubica en ser un servicio de
+              vanguardia, eficiente, seguro y confiable, que certifica y da
+              soluciones a nuestros clientes. También nuestro amplio Staff de
+              Jueces, Cinólogos, Criadores y Profesionales, bridan cursos,
+              seminarios y reuniones dedicadas a la canofilia y cinología canina
+              a nivel mundial.
             </p>
             <a href="https://api.whatsapp.com/send?phone=5492994021637&text=Hola,%20Ubro">
               <img src={wp} width="300" />

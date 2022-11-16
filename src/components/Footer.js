@@ -4,10 +4,7 @@ export default function Footer() {
   return (
     <section id="footer">
       <div className="inner">
-
-        <h2>
-          Nuestras Redes
-        </h2>
+        <h2>Nuestras Redes</h2>
         <ul className="icons">
           <li>
             <a

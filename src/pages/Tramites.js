@@ -45,9 +45,13 @@ export default function IndexPage() {
                       <option value="Permanente">PERMANENTES</option>
                       <option value="Afijo/Kennel">AFIJOS / KENNEL</option>
                       <option value="Homologacion">HOMOLOGACIÓN</option>
-                      <option value="Tramites Especiales">TRAMITES ESPECIALES</option>
+                      <option value="Tramites Especiales">
+                        TRAMITES ESPECIALES
+                      </option>
                       <option value="Camadas">CAMADAS</option>
-                      <option value="Informes y Actualizaciones">INFORMES Y ACTUALIZACIONES</option>
+                      <option value="Informes y Actualizaciones">
+                        INFORMES Y ACTUALIZACIONES
+                      </option>
                     </select>
                   </div>
                 </div>

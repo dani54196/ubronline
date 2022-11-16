@@ -11,10 +11,10 @@ export default function IndexPage() {
 
     emailjs
       .sendForm(
-        "service_yeq98hi",//'YOUR_SERVICE_ID',
-        "template_8jwmzid",//'YOUR_TEMPLATE_ID',
+        'service_yeq98hi', //'YOUR_SERVICE_ID',
+        'template_8jwmzid', //'YOUR_TEMPLATE_ID',
         form.current,
-        "RUX9nW4pQkFsYji1Q"//'YOUR_PUBLIC_KEY'
+        'RUX9nW4pQkFsYji1Q' //'YOUR_PUBLIC_KEY'
       )
       .then(
         (result) => {
