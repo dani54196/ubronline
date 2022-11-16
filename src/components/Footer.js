@@ -1,5 +1,6 @@
 import React from 'react';
-import config from '../../config';
+import { Link } from 'gatsby';
+
 export default function Footer() {
   return (
     <section id="footer">
@@ -35,6 +36,11 @@ export default function Footer() {
           <li>&copy; UBRO. All rights reserved.</li>
           <li>
             Design: <a href="http://softwareofosuth.xyz">Software of South</a>
+          </li>
+          <li>
+            <Link to="/Terminos">
+              Terminos y condiciones
+            </Link>
           </li>
         </ul>
       </div>
