@@ -27,21 +27,21 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-0daf7b6161fb39479aa6.js"
+    "url": "webpack-runtime-ba375bbd873f8fc9b803.js"
   },
   {
     "url": "framework-3ef39a720c24482e4121.js"
   },
   {
-    "url": "app-1abccc4983dd0a95a6fb.js"
+    "url": "app-bc6d34c2d36a59707025.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "e634f3cb18fa7ef17f0b84e074ec0b73"
+    "revision": "09305e893f4674b3e8597af6fdb5c3fb"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "660f74574fc295879db3d7ed0bbfe250"
+    "revision": "7dbc1d20a414010a8c989ef193f3c319"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -146,12 +146,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^`), ``)
+  pathname = pathname.replace(new RegExp(`^https://danicardozo.me/ubronline`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-1abccc4983dd0a95a6fb.js`))) {
+  if (!resources || !(await caches.match(`https://danicardozo.me/ubronline/app-bc6d34c2d36a59707025.js`))) {
     return await fetch(event.request)
   }
 
@@ -164,7 +164,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `https://danicardozo.me/ubronline/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
