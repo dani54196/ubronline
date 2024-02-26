@@ -39,7 +39,7 @@ const IndexPage = () => (
             <p>
               UBRO, es una organización de nivel internacional, compuesta por
               socios, colegas que nos apoyan y hacen que cada día esta familia
-              crezca. UBRO ES EL PRIMER REGISTRO DE MASCOTAS ONLINE, en ofrecer
+              crezca. UBRO ES EL PRIMER <strong>REGISTRO DE MASCOTAS</strong> ONLINE, en ofrecer
               trámites digitales y homologación de trámites de otros registros
               reconocidos, con lo que, lo ubica en ser un servicio de
               vanguardia, eficiente, seguro y confiable, que certifica y da
